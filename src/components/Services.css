@@ -1,0 +1,114 @@
+/* SERVICES STYLES */
+.services-title {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.5s ease-in-out forwards;
+  margin-top: 5rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.services-title h1 {
+  font-family: "Cabin", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  color: #d3756b;
+}
+
+.services-title h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 100;
+}
+
+/* CARD STYLES */
+.services-cards {
+  width: 100%;
+  display: grid;
+}
+
+.card {
+  background-color: #fff;
+  width: 92%;
+  height: 16rem;
+  margin: 0.5rem auto;
+  padding: 1.8rem 2.1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card span {
+  font-family: "Lora", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  padding: 0.5rem;
+}
+
+.card p {
+  line-height: 1.5;
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  color: #7d7d7d;
+}
+
+.card:hover {
+  background-color: #a3727d;
+  transition: all 0.5s;
+}
+.card:hover span,
+.card:hover i,
+.card:hover p {
+  color: #fff;
+}
+
+.card i {
+  font-size: 2.5rem;
+  margin: 0.5rem auto;
+  color: #d3756b;
+}
+
+@media screen and (min-width: 540px) {
+  .services-cards {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6";
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .services-cards {
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card5 card6";
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .services-cards {
+    width: 75rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+}

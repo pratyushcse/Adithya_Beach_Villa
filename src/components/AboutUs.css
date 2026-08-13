@@ -1,0 +1,136 @@
+/* ABOUT US */
+.about-us {
+  width: 100%;
+  margin: 6rem 0;
+  font-family: "Cabin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-content {
+  margin-bottom: 3rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about-us-titles {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-us-titles h2 {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  color: #d3756b;
+}
+
+.about-us-titles h3 {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  padding: 0.3rem 0;
+}
+
+.about-us-text {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.about-us-text p {
+  font-size: 1rem;
+}
+
+.about-us-photos {
+  margin: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us-photos img {
+  width: 100%;
+  max-height: 22rem;
+}
+
+.about-us-photos img:nth-child(1) {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.about-us-photos img:nth-child(2) {
+  width: 100%;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 575px) {
+  .about-us-photos img:nth-child(1) {
+    object-fit: contain;
+  }
+  .about-us-photos img:nth-child(2) {
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-titles h3 {
+    font-size: 2.5rem;
+  }
+  .about-us-text {
+    font-size: 1.2rem;
+  }
+  .about-us-photos img:nth-child(1),
+  .about-us-photos img:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    padding: 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1008px) {
+	.about-us {
+	  display: flex;
+	  flex-direction: row;
+	  width: 63rem;
+	  margin: 6rem auto;
+	}
+	.about-us-titles {
+	  width: 80%;
+	}
+	.about-us-text {
+	  width: 80%;
+	}
+	.about-us-photos {
+	  display: flex;
+	}
+	.about-us-photos img:nth-child(1),
+	.about-us-photos img:nth-child(2) {
+	  height: 20rem;
+	  object-fit: cover;
+	}
+ }
+
+@media screen and (min-width: 1024px) {
+  .about-us-photos img {
+    filter: grayscale(100%)
+  }
+  
+  .about-us-photos img:hover {
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
+  }
+ }
+ 
+ @media screen and (min-width: 1256px) {
+	.about-us {
+	  width: 75rem;
+	}
+ }

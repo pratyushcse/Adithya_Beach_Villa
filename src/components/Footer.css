@@ -1,0 +1,118 @@
+:root {
+    --color-dark-blue: #212529;
+    --color-grey: #aaaab3;
+    --color-red-orange: #a7727d;
+    --color-white: #ffffff;
+  }
+  
+  body {
+    font-size: 16px; /* Base font size for desktop */
+  }
+  
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--color-dark-blue);
+    color: var(--color-grey);
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    font-size: 1rem; /* Inherits base font size */
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 1rem;
+  }
+  
+  .footer-left iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+  }
+  
+  .footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo-image {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    color: var(--color-grey);
+    font-size: 1.5rem; /* Size for social media icons */
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: var(--color-red-orange);
+  }
+  
+  .contact-title {
+    color: var(--color-red-orange);
+    margin-bottom: 1rem;
+    font-size: 1.2rem; /* Slightly larger for emphasis */
+  }
+  
+  .contact-icon {
+    margin-right: 0.5rem;
+    color: var(--color-red-orange);
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    font-size: 1.1rem; /* Adjusts the font size */
+    line-height: 1.5; /* Ensures proper line spacing */
+  }
+  
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 18px; /* Increase base font size for better readability */
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0.5rem;
+      font-size: 1rem; /* Adjust if needed */
+    }
+  
+    .footer-section {
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  
+    .footer-left,
+    .footer-right {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .footer-center {
+      margin: 1rem 0;
+    }
+  
+    .contact-title {
+      font-size: 1.4rem; /* Increase for mobile */
+    }
+  
+    .social-icon {
+      font-size: 1.8rem; /* Increase icon size for mobile */
+    }
+  }
+  
