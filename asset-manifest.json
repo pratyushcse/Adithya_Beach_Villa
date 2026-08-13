@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1e6806f.css",
+    "main.js": "/static/js/main.303d5173.js",
+    "static/js/453.1234863a.chunk.js": "/static/js/453.1234863a.chunk.js",
+    "static/media/House 1.jpeg": "/static/media/House 1.2b62ecc19987b92c1ae1.jpeg",
+    "static/media/about-us-photo-2.jpeg": "/static/media/about-us-photo-2.2b62ecc19987b92c1ae1.jpeg",
+    "static/media/House 3.jpeg": "/static/media/House 3.ad15ae79434018af4e30.jpeg",
+    "static/media/about-us-photo-1.jpeg": "/static/media/about-us-photo-1.ad15ae79434018af4e30.jpeg",
+    "static/media/Hallway.jpeg": "/static/media/Hallway.5ccc5342f0aaa9b6bb4e.jpeg",
+    "static/media/House 2.jpeg": "/static/media/House 2.2eadd035f8e90b4ae0cc.jpeg",
+    "static/media/2BHK.jpeg": "/static/media/2BHK.20a692aca88ab94c1afb.jpeg",
+    "static/media/Room 2.jpeg": "/static/media/Room 2.20a692aca88ab94c1afb.jpeg",
+    "static/media/Room 1.jpeg": "/static/media/Room 1.a25bc8328cad21794636.jpeg",
+    "static/media/room3.jpeg": "/static/media/room3.a25bc8328cad21794636.jpeg",
+    "static/media/1BHK.jpeg": "/static/media/1BHK.0a3a94d23db4c8262a61.jpeg",
+    "static/media/hintergrund-banner1.webp": "/static/media/hintergrund-banner1.29788150b9f5f1c37209.webp",
+    "static/media/slider2.jpg": "/static/media/slider2.086d92226c565d4f8af5.jpg",
+    "static/media/slider4.jpg": "/static/media/slider4.2e85e45f07afa6d311ea.jpg",
+    "static/media/logo.png": "/static/media/logo.36d8c455e0c072234177.png",
+    "static/media/slider1.jpg": "/static/media/slider1.a7f0b39bda2faddf4f57.jpg",
+    "static/media/slider3.jpg": "/static/media/slider3.ef050e7e8031a9f882a4.jpg",
+    "index.html": "/index.html",
+    "main.a1e6806f.css.map": "/static/css/main.a1e6806f.css.map",
+    "main.303d5173.js.map": "/static/js/main.303d5173.js.map",
+    "453.1234863a.chunk.js.map": "/static/js/453.1234863a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e6806f.css",
+    "static/js/main.303d5173.js"
+  ]
+}
